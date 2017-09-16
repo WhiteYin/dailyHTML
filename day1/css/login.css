@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    width: 78px;
+    height: 21px;
+    margin-left: 204px;
+    margin-top: 112px;
+    display: block;
+}
+
+.container{
+    height: 603px;
+    width: 100%;
+    background-color: #00A0E9;
+}
+
+#cityImg{
+    width: 625px;
+    height: 100%;
+}
+
+.login-box{
+    position: absolute;
+    top: 200px;
+    right: 80px;
+    display: inline-block;
+    height: 440px;
+    width: 402px;
+    background-color: #00A0E9;
+}
+
+#help{
+    color: #FFFFFF;
+    float: right;
+    font-size: 16px;
+}
+
+.form-box{ 
+    background-color: #ECF9FF;
+    margin-top: 32px;
+    padding: 32px 35px;
+}
+
+.title{
+    font-size: 20px;
+    color: #333333;
+}
+
+.input-box{
+    width: 100%;
+    height: 46px;
+    margin: 40px auto;
+}
+
+.input-box img{
+    float: left;
+    width: 47px;
+    height: 47px;
+}
+
+.input-box input{
+    float: left;
+    height: 43px;
+    width: 275px;
+    margin-left:0; 
+}
+
+.login-btn{
+    width: 100%;
+    height: 49px;
+    background-color: #00A0E9;
+    font-size: 20px;
+    color: #ffffff;
+    letter-spacing: 20px;
+    padding-left: 20px;
+    margin:37px 0 13px 0;  
+}
+
+.footer{
+    width: 100%;
+    margin-top: 24px;
+    font-size: 12px;
+}
