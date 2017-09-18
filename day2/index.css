@@ -81,3 +81,72 @@
     height: 606px;
     margin-top: 54px;
 }
+
+.div3{
+    height: 650px;
+    background-color: #2C3E50;
+    position: relative;
+}
+
+#div3Img{
+    width: 505px;
+    height: 505px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#div3Child{
+    position: absolute;
+    bottom: 0;
+    right: 136px;
+    width: 450px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    margin-right: 48px;
+}
+
+.divTitle{
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 82px;
+}
+
+.divText{
+    color: #BDC3C7;
+    margin-top: 36px;
+}
+
+.try-btn{
+    width: 141px;
+    height: 46px;
+    border: 2px solid #2ECC71;
+    border-radius: 5px;
+    color: #2ECC71;
+    line-height: 46px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 56px;
+}
+
+.div3 .try-btn{
+    margin-bottom: 88px;
+}
+
+.div4{
+    height: 837px;
+    background-image: url("./images/div4bg.png");
+    background-size: cover;
+    position: relative;
+}
+
+#div4Child{
+    position: absolute;
+    top: 206px;
+    left: 130px;
+    width: 268px;
+}
