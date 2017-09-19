@@ -106,6 +106,9 @@
 .icon{
     width: 25px;
     height: 25px;
+}
+
+#div3Child .icon{
     margin-right: 48px;
 }
 
@@ -149,4 +152,131 @@
     top: 206px;
     left: 130px;
     width: 268px;
+}
+
+.div5{
+    height: 1066px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#div5Title{
+    margin-top: 147px;
+    color: #212A33;
+    font-size: 30px;
+}
+
+#div5Text{
+    width: 680px;
+    margin: auto;
+    margin-top: 34px;
+    color: #95A5A6;
+    font-size: 18px;
+}
+
+.div5Child{
+    width: 938px;
+    margin: 50px auto 0; 
+    border: 3px solid #E5E5E5;
+}
+
+.col-3{
+    width: 33.333%;
+}
+
+.plan-header{
+    overflow: hidden;
+    height: 321px;
+    background-color: #34495E;
+}
+
+.plan-item{
+    float: left;
+}
+
+.plan-title{
+    color: #ffffff;
+    margin-top: 59px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.dollar-icon{
+    position: relative;
+    top: -54px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #dddddd;
+}
+
+.money{
+    font-size: 100px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.mo-text{
+    font-size: 13px;
+    font-weight: bold;
+    color: #dddddd;
+}
+
+.add-btn{
+    width: 199px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 20px;
+    border: 3px solid #ffffff;
+}
+
+.active{
+    border: 3px solid #dddddd;
+}
+
+.plan-footer{
+    height: 284px;
+    border: 0.5px solid #dddddd;
+    padding-bottom: 48px;
+}
+
+.detail-item{
+    width: 236px;
+    height: 60px;
+    margin: auto;
+    line-height: 60px;
+    font-size: 18px;
+    color: #dddddd;
+    border-top: 2px solid #dddddd;
+}
+
+.detail-item:first-child{
+    border: 0;
+    margin-top: 42px;
+}
+
+.detail-item .icon{
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.detail-text{
+    vertical-align: middle;
+}
+
+.unlimited{
+    color: #000000;
+}
+
+.footer{
+    height: 112px;
+    line-height: 112px;
+    background-color: #EBEDEE;
+    color: #aaaaaa;
+    text-align: center;
+}
+
+.footer-menu{
+    margin: 0 70px;
 }
