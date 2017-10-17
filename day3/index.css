@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#nav{
+    height: 50px;
+    background: #191919;
+    color: #ffffff;
+    padding: 40px 59px 0 56px;
+}
+
+#left-nav{
+    display: inline-block;
+    position: relative;
+}
+
+#i-icon{
+    float: left;
+    width: 50px;
+    height: 50px;
+    font-family: STIXGeneral-BoldItalic;
+    background: #C49C5F;
+    text-align: center;
+    line-height: 50px;
+    font-size: 38px;
+}
+
+#left-nav span{
+    font-size: 27px;
+    margin-left: 21px;
+    line-height: 50px;
+}
+
+#right-nav {
+    float: right;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+#right-nav a:link {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 68px;
+}
+
+#right-nav a:hover {
+    text-decoration: underline;
+}
+
+#menu-icon {
+    margin-top: 20px;
+    float: right;
+    line-height: 3px;
+}
+
+#menu-icon span {
+    display: block;
+}
+
+#display-block {
+    padding: 0 56px;
+    overflow: hidden;
+    background: #191919;
+}
+
+#title {
+    margin-top: 183px;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
+
+#description {
+    width: 470px;
+    font-size: 19px;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+#menu-block {
+    position: relative;
+    height: 263px;
+    line-height: 263px;
+}
+
+#left-arrow,#right-arrow{
+    width: 51px;
+    height: 51px;
+    background: #C49C5F;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    line-height: 51px;
+}
+
+#menu-container {
+    width: 1102px;
+    height: 263px;
+
+}

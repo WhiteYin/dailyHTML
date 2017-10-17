@@ -1,0 +1,101 @@
+#app-bar {
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff;
+    background: rgb(98, 204, 116);
+}
+
+#app-bar .fa-arrow-left {
+    margin-left: 2rem;
+    font-size: 2.5rem;
+}
+
+#app-bar .page-title{
+    margin-left: 4rem;
+    font-size: 2.3rem;
+}
+
+#sex-container {
+    margin-top: 8rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#sex-selector {
+    margin-top: 2rem;
+}
+
+.sex {
+    display: inline-block;
+    background: rgb(223,223,223);
+    color: rgb(190,186,185);
+    width: 12rem;
+    height: 5.7rem;
+    padding-top: 1.5rem;
+}
+.female-container{
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+}
+.male-container{
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 45%;
+}
+#sex-selector .active{
+    background: #fff;
+    color: rgb(98, 204, 116);
+}
+
+.sex .fa{
+    font-size: 1.5rem;
+}
+
+.sex span{
+    display: block;
+}
+
+.male,.female{
+    margin-top: 1rem;
+}
+
+.male::after{
+    content:"男";
+}
+
+#sex-selector .active .male::after{
+    content: "我是男生";
+}
+
+.female::after{
+    content:"女";
+}
+
+#sex-selector .active .female::after{
+    content: "我是女生";
+}
+
+#height-tip {
+    margin-top: 9rem;
+}
+
+#height {
+    margin-top: 1.2rem;
+    color: rgb(98, 204, 116);
+}
+
+.triangle {
+    position: relative;
+    top: 1rem;
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    z-index: 199;
+    border-left:1rem solid transparent;
+    border-right:1rem solid transparent;
+    border-top:1rem solid #fff; 
+}
+
+#ruler {
+    height: 7.5rem;
+    background: rgb(251,228,12);
+}
